@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Ma Mini App</title>
+<script src="https://telegram.org/js/telegram-web-app.js"></script>
+<style>
+body{
+    font-family:Arial,sans-serif;
+    text-align:center;
+    padding-top:80px;
+    background:#f4f4f4;
+}
+button{
+    padding:15px 25px;
+    font-size:18px;
+    border:none;
+    border-radius:10px;
+    background:#0088cc;
+    color:white;
+}
+</style>
+</head>
+<body>
+
+<h1>🚀 Bienvenue</h1>
+<p>Ma première Mini App Telegram</p>
+
+<button onclick="alert('Bonjour !')">
+Clique ici
+</button>
+
+<script>
+Telegram.WebApp.ready();
+Telegram.WebApp.expand();
+</script>
+
+</body>
+</html>
